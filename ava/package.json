@@ -1,0 +1,5 @@
+{
+  "name": "ava-test-runner",
+  "version": "1.0.0",
+  "description": "Doesn't support groups https://github.com/avajs/ava/issues/222"
+}

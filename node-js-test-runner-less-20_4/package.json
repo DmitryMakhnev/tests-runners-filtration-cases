@@ -1,0 +1,13 @@
+{
+  "name": "node-js-test-runner-less-20_4-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --test",
+    "test:callback:valid": "node --test --test-name-pattern=\"^callback version valid$\"",
+    "test:callback:valid_try-to-fix": "node --test --test-name-pattern=\"^callback version$\"  --test-name-pattern=\"^valid$\"",
+    "test:valid": "node --test --test-name-pattern=\"valid$\""
+  },
+  "engines": {
+    "node": ">=18.0.0 <20.0.4"
+  }
+}

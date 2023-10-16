@@ -1,0 +1,13 @@
+{
+  "name": "playwright-test-runner",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:callback:valid": "playwright test --grep=\"callback version valid\"",
+    "test:valid": "playwright test --grep=\" valid$\""
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.3"
+  }
+}

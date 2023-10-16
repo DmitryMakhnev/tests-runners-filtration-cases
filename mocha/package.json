@@ -1,0 +1,12 @@
+{
+  "name": "mocha-test-runner-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha",
+    "test:callback:valid": "mocha --grep=\"^callback version valid$\"",
+    "test:valid": "mocha --grep=\" valid$\""
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}

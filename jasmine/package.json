@@ -1,0 +1,12 @@
+{
+  "name": "jasmine-test-runner-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jasmine ./**/*.spec.js",
+    "test:callback:valid": "jasmine ./**/*.spec.js --filter=\"^callback version valid$\"",
+    "test:valid": "jasmine ./**/*.spec.js --filter=\" valid$\""
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
+}

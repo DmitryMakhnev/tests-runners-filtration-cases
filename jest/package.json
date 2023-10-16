@@ -1,0 +1,12 @@
+{
+  "name": "jest-test-runner-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "test:callback:valid": "jest --testNamePattern=\"^callback version valid$\"",
+    "test:valid": "jest --testNamePattern=\" valid$\""
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "node-js-test-runner-greater-or-equal-20_4-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --test",
+    "test:callback:valid": "node --test --test-name-pattern=\"^callback version valid$\"",
+    "test:callback": "node --test --test-name-pattern=\"callback version\"",
+    "test:valid": "node --test --test-name-pattern=\"valid\"",
+    "test:callback:valid_2nd_try": "node --test --test-name-pattern=\"callback version\" --test-name-pattern=\"valid\""
+  },
+  "engines": {
+    "node": ">=20.0.4"
+  }
+}

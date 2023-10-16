@@ -1,0 +1,12 @@
+{
+  "name": "tape-test-runner-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tap run",
+    "test:callback:valid": "tap run --grep=\"^callback version$\" --grep=\"^valid$\"",
+    "test:valid": "tap run --grep=\"^valid$\""
+  },
+  "devDependencies": {
+    "tap": "^18.4.5"
+  }
+}
